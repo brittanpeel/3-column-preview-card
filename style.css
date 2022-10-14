@@ -1,11 +1,22 @@
+.display {
+    display: flex;
+    flex-direction: row;
+}
+
 .sedans {
+    display: flex;
+    flex-direction: column;;
     background-color: blue;
 }
 
 .suv {
+    display: flex;
+    flex-direction: column;
     background-color: red;
 }
 
 .luxury {
+    display: flex;
+    flex-direction: column;
     background-color: blueviolet;
 }
