@@ -19,6 +19,7 @@ body {
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
+    padding: 10px ;
 }
 
 button {
@@ -27,13 +28,15 @@ button {
     outline: none;
     border: none;
     padding: 15px;
+    margin-left: 25px;
     font-weight: 550;
     font-size: 13px;
 }
 
 img {
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 55px;
+    max-height: 55px;
+    padding-left: 25px;
 }
 
 .sedanButton {
@@ -55,7 +58,8 @@ h1 {
     font-weight: bold;
     font-family: Big Shoulders Display;
     color: hsl(0, 0%, 95%);
-    border: solid 2px white;;
+    border: solid 2px white;
+    padding-left: 25px;
 }
 
 p {
@@ -64,6 +68,7 @@ p {
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
     border: solid 2px red;
+    padding-left: 25px;
 }
 
 .sedans {
