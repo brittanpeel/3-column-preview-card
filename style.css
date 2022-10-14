@@ -3,15 +3,22 @@
     flex-direction: row;
 }
 
+button {
+    border-radius: 1rem;
+    max-width: 8rem;
+}
+
 h1 {
     font-weight: bold;
     font-family: Big Shoulders Display;
+    color: hsl(0, 0%, 95%);
 }
 
 p {
     font-weight: lighter;
     font-family: Lexend Deca;
     font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .sedans {
