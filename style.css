@@ -1,11 +1,46 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.attribution {
+    color: black;
+    font-family: Lexend Deca;
+    font-weight: 200;
+}
+
 .display {
     display: flex;
     flex-direction: row;
+    max-width: 800px;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     border-radius: 1rem;
     max-width: 8rem;
+    outline: none;
+    border: none;
+}
+
+.buttonSedan {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.buttonSuv {
+    color:hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.buttonLuxury {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
 }
 
 h1 {
@@ -23,18 +58,24 @@ p {
 
 .sedans {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:  hsl(31, 77%, 52%);
 }
 
 .suv {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(184, 100%, 22%);
 }
 
 .luxury {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(179, 100%, 13%);
 }
