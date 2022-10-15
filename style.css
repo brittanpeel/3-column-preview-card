@@ -1,5 +1,6 @@
 /*TODO add phone support to the webpage (currently only desktop is supported*/
 
+
 body {
     background-color: hsl(0, 0%, 95%);
     align-items: center;
@@ -24,6 +25,12 @@ body {
     align-items: center;
 }
 
+button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff; 
+    cursor: pointer;
+}
 button {
     border-radius: 2rem;
     max-width: 7rem;
