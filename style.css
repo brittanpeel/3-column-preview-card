@@ -1,6 +1,6 @@
 /*TODO add phone support to the webpage (currently only desktop is supported*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 450px) {
     .display {
 
         display: flex;
