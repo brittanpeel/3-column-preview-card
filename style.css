@@ -1,29 +1,74 @@
 /*TODO add phone support to the webpage (currently only desktop is supported*/
 
+@media screen and (max-width: 414px) {
+    .display {
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .sedans {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+
+    .luxury {
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    .attribution {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-family: Lexend Deca;
+        font-weight: 200;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .display {
+        display: flex;
+        flex-direction: row;
+        max-width: 800px;
+        min-height: 100vh;
+        margin: auto;
+        flex: 1 1 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sedans {
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .luxury {
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    .attribution {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: black;
+        font-family: Lexend Deca;
+        font-weight: 200;
+    }
+
+}
 body {
     background-color: hsl(0, 0%, 95%);
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     min-height: 100vh;
 }
-.attribution {
-    color: black;
-    font-family: Lexend Deca;
-    font-weight: 200;
-}
 
-.display {
-    display: flex;
-    flex-direction: row;
-    max-width: 800px;
-    max-height: auto;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-items: center;
-}
 
 button:hover {
     background-color: transparent;
@@ -77,6 +122,7 @@ p {
     color: hsla(0, 0%, 100%, 0.75);
     margin-left: 40px;
     margin-right: 42px;
+    line-height: 1.4;
 }
 
 .sedans {
@@ -84,8 +130,6 @@ p {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
     background-color:  hsl(31, 77%, 52%);
     height: 480px;
     width: fit-content;
@@ -106,8 +150,6 @@ p {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
     background-color: hsl(179, 100%, 13%);
     height: 480px;
     width: fit-content;
