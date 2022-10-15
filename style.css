@@ -16,10 +16,10 @@ body {
     display: flex;
     flex-direction: row;
     max-width: 800px;
+    max-height: auto;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
-    padding: 10px ;
 }
 
 button {
@@ -28,7 +28,7 @@ button {
     outline: none;
     border: none;
     padding: 15px;
-    margin-left: 25px;
+    margin: 40px 0 40px 40px;
     font-weight: 550;
     font-size: 13px;
 }
@@ -36,7 +36,7 @@ button {
 img {
     max-width: 55px;
     max-height: 55px;
-    padding-left: 25px;
+    margin: 40px 0 0 40px;
 }
 
 .sedanButton {
@@ -58,17 +58,16 @@ h1 {
     font-weight: bold;
     font-family: Big Shoulders Display;
     color: hsl(0, 0%, 95%);
-    border: solid 2px white;
-    padding-left: 25px;
+    margin: 40px 0 40px 40px;
 }
 
 p {
-    font-weight: lighter;
+    font-weight: 200;
     font-family: Lexend Deca;
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    border: solid 2px red;
-    padding-left: 25px;
+    margin-left: 40px;
+    margin-right: 42px;
 }
 
 .sedans {
@@ -76,7 +75,11 @@ p {
     flex-direction: column;
     justify-content: left;
     align-items: left;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     background-color:  hsl(31, 77%, 52%);
+    height: 480px;
+    width: fit-content;
 }
 
 .suv {
@@ -85,6 +88,8 @@ p {
     justify-content: left;
     align-items: left;
     background-color: hsl(184, 100%, 22%);
+    height: 480px;
+    width: fit-content;
 }
 
 .luxury {
@@ -92,5 +97,21 @@ p {
     flex-direction: column;
     justify-content: left;
     align-items: left;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     background-color: hsl(179, 100%, 13%);
+    height: 480px;
+    width: fit-content;
+}
+
+.sedanP {
+    width: 170px;
+}
+
+.suvP {
+   width: 170px;
+}
+
+.luxuryP {
+    width: 170px;
 }
